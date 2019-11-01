@@ -1,0 +1,27 @@
+{
+  "name": "one-hour-marketing-activity-extension",
+  "version": "1.0.0",
+  "description": "Build a Shopify marketing activity extension in 1 hour",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macdonaldr93/one-hour-marketing-activity-extension.git"
+  },
+  "author": "Ryan Macdonald <ryan.macdonald@shopify.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/macdonaldr93/one-hour-marketing-activity-extension/issues"
+  },
+  "homepage": "https://github.com/macdonaldr93/one-hour-marketing-activity-extension#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "3.1.48",
+    "dotenv": "8.2.0",
+    "isomorphic-fetch": "2.2.1",
+    "koa": "2.11.0",
+    "koa-session": "5.12.3"
+  }
+}
